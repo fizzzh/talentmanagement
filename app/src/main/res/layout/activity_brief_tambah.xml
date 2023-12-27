@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_marginTop="25dp"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".brief_tambah">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Add Brief"
+        android:textStyle="bold"
+        android:textSize="30dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Title"
+            android:textColor="#333333"></TextView>
+
+        <EditText
+            android:id="@+id/edt_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add Brief Title"
+            android:layout_marginBottom="10dp"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="To"
+            android:textColor="#333333"></TextView>
+
+        <EditText
+            android:id="@+id/edt_untuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Talent ID"
+            android:layout_marginBottom="10dp"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Description"
+            android:textColor="#333333"></TextView>
+
+        <EditText
+            android:id="@+id/edt_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_square"></EditText>
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="@color/sage"
+            android:text="Save"></Button>
+    </LinearLayout>
+</LinearLayout>

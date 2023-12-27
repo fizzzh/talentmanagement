@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Talent Management"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Talentmanagement"
+        tools:targetApi="31">
+        <activity
+            android:name=".brief_ubah"
+            android:exported="false" />
+        <activity
+            android:name=".brief_hapus"
+            android:exported="false" />
+        <activity
+            android:name=".brief_tambah"
+            android:exported="false" />
+        <activity
+            android:name=".brief_item"
+            android:exported="false" />
+        <activity
+            android:name=".category_item"
+            android:exported="false" />
+        <activity
+            android:name=".category_ubah"
+            android:exported="false" />
+        <activity
+            android:name=".category_hapus"
+            android:exported="false" />
+        <activity
+            android:name=".category_tambah"
+            android:exported="false" />
+        <activity
+            android:name=".talent_item"
+            android:exported="false" />
+        <activity
+            android:name=".talent_tambah"
+            android:exported="false" />
+        <activity
+            android:name=".talent_hapus"
+            android:exported="false" />
+        <activity
+            android:name=".talent_ubah"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".manager"
+            android:exported="false" />
+        <activity
+            android:name=".brief"
+            android:exported="false" />
+        <activity
+            android:name=".talent"
+            android:exported="false" />
+        <activity
+            android:name=".category"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

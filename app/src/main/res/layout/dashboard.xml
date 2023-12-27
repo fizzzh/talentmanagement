@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".dashboard"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fc_konten"
+        android:layout_width="match_parent"
+        android:layout_height="571dp"></androidx.fragment.app.FragmentContainerView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#B2AC88">
+    </View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:weightSum="20">
+
+        <ImageButton
+            android:id="@+id/btn_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight="5"
+            android:backgroundTint="@color/white"
+            android:scaleType="centerCrop"
+            android:src="@drawable/category"></ImageButton>
+        <ImageButton
+            android:id="@+id/btn_talent"
+            android:backgroundTint="@color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_marginRight="25dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/talent"></ImageButton>
+        <ImageButton
+            android:id="@+id/btn_brief"
+            android:backgroundTint="@color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_marginRight="25dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/brief"></ImageButton>
+        <ImageButton
+            android:id="@+id/btn_account"
+            android:backgroundTint="@color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_marginRight="25dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/account"></ImageButton>
+    </LinearLayout>
+
+</LinearLayout>
